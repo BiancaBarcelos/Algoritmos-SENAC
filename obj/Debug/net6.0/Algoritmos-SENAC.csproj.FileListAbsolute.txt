@@ -1,0 +1,17 @@
+C:\Users\Bianca\Documents\Projetos\Algoritmos-SENAC\bin\Debug\net6.0\Algoritmos-SENAC.exe
+C:\Users\Bianca\Documents\Projetos\Algoritmos-SENAC\bin\Debug\net6.0\Algoritmos-SENAC.deps.json
+C:\Users\Bianca\Documents\Projetos\Algoritmos-SENAC\bin\Debug\net6.0\Algoritmos-SENAC.runtimeconfig.json
+C:\Users\Bianca\Documents\Projetos\Algoritmos-SENAC\bin\Debug\net6.0\Algoritmos-SENAC.dll
+C:\Users\Bianca\Documents\Projetos\Algoritmos-SENAC\bin\Debug\net6.0\Algoritmos-SENAC.pdb
+C:\Users\Bianca\Documents\Projetos\Algoritmos-SENAC\obj\Debug\net6.0\Algoritmos-SENAC.csproj.AssemblyReference.cache
+C:\Users\Bianca\Documents\Projetos\Algoritmos-SENAC\obj\Debug\net6.0\Algoritmos-SENAC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bianca\Documents\Projetos\Algoritmos-SENAC\obj\Debug\net6.0\Algoritmos-SENAC.AssemblyInfoInputs.cache
+C:\Users\Bianca\Documents\Projetos\Algoritmos-SENAC\obj\Debug\net6.0\Algoritmos-SENAC.AssemblyInfo.cs
+C:\Users\Bianca\Documents\Projetos\Algoritmos-SENAC\obj\Debug\net6.0\Algoritmos-SENAC.csproj.CoreCompileInputs.cache
+C:\Users\Bianca\Documents\Projetos\Algoritmos-SENAC\obj\Debug\net6.0\Algoritmos-SENAC.dll
+C:\Users\Bianca\Documents\Projetos\Algoritmos-SENAC\obj\Debug\net6.0\refint\Algoritmos-SENAC.dll
+C:\Users\Bianca\Documents\Projetos\Algoritmos-SENAC\obj\Debug\net6.0\Algoritmos-SENAC.pdb
+C:\Users\Bianca\Documents\Projetos\Algoritmos-SENAC\obj\Debug\net6.0\Algoritmos-SENAC.genruntimeconfig.cache
+C:\Users\Bianca\Documents\Projetos\Algoritmos-SENAC\obj\Debug\net6.0\ref\Algoritmos-SENAC.dll
+C:\Users\Bianca\Documents\Projetos\Algoritmos-SENAC\bin\Debug\net6.0\ConsoleTables.dll
+C:\Users\Bianca\Documents\Projetos\Algoritmos-SENAC\obj\Debug\net6.0\Algoritmos-SENAC.csproj.CopyComplete

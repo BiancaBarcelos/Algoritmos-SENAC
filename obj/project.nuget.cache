@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "S1HwYKl+DbAOzDejc4quf9UkrVDO3SKM0ZY9T60gCChbuaLFV6G9b/2huP3vHEQPnqvIfo5YW0/NHL0XD30GFg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Bianca\\Documents\\Projetos\\Algoritmos-SENAC\\Algoritmos-SENAC.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Bianca\\.nuget\\packages\\consoletables\\2.6.1\\consoletables.2.6.1.nupkg.sha512"
+  ],
+  "logs": []
+}
