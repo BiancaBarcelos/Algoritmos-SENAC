@@ -21,7 +21,6 @@ class GerenciadorEstoque {
     }
 
     public void listarProdutos(){
-        Program.Mensagem("Listando...");
         var table = new ConsoleTable("Id","Nome", "Modelo", "Dimensões", "Escala", "Led", "Valor", "Estoque");
         for(int posicao = 0 ; posicao < produtos.Length; posicao++){
             Produto item = produtos[posicao];
@@ -31,6 +30,8 @@ class GerenciadorEstoque {
     }
 
     public void removerProduto(){
+        Program.Mensagem("____________________");
+        Program.Mensagem("-- Saída de Estoque --");
         int posicaoRemover = Program.PedirNumeroInteiro("Informe o produto a ser removido:");
         Produto[] novoArray = new Produto[produtos.Length - 1];
         for (int pos = 0; pos < novoArray.Length; pos++){
@@ -46,12 +47,14 @@ class GerenciadorEstoque {
     }
 
     public void entradaEstoque(){
+        Program.Mensagem("____________________");
         Program.Mensagem("-- Entrada de Estoque --");
         listarProdutos();
         int posicao = Program.PedirNumeroInteiro("Informe o Identificador do produto:");
         int estoque = Program.PedirNumeroInteiro("Informe quantos produtos entraram:");
         produtos[posicao -1].Estoque += estoque;
         
+        Program.Mensagem("---- !! Estoque Atualizado!! !! ----");
         listarTabela(posicao);
     }
 
@@ -65,6 +68,7 @@ class GerenciadorEstoque {
             produtos[posicao -1].Estoque = 0;
         }
         
+        Program.Mensagem("---- !! Estoque Atualizado!! !! ----");
         listarTabela(posicao);
     }
 }

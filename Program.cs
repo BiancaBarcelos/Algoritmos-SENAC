@@ -7,24 +7,27 @@ class Program
     static void Main(string[] args)
     {       
         Mensagem("---- Estoque Loja Miniatura - Dorama ----");
+        Mensagem("--- Produzido por: Bianca S. Barcelos ---");
+        Mensagem("------------ ID: 1142796876 -------------");
+
         
        //Enquanto for verdadeiro mantém o programa ativo 
         bool executando = true;
         Program program = new Program();
 
-        //Produto Padrão Cadastrado
-        Produto DoramaPadrao = new Produto {
-            Nome = "Kit Noite Feliz",
-            Modelo = "Miniatura",
-            DAltura = 21,
-            DLargura = 13,
-            DProfundidade = 15,
-            Escala = "1:24",
-            Led = "Sim",
-            Valor = 379.97,
-            Estoque = 8
-        };
-        program.gerenciadorEstoque.cadastrarProduto(DoramaPadrao);
+        // //Produto Padrão Cadastrado
+        // Produto DoramaPadrao = new Produto {
+        //     Nome = "Kit Noite Feliz",
+        //     Modelo = "Miniatura",
+        //     DAltura = 21,
+        //     DLargura = 13,
+        //     DProfundidade = 15,
+        //     Escala = "1:24",
+        //     Led = "Sim",
+        //     Valor = 379.97,
+        //     Estoque = 8
+        // };
+        // program.gerenciadorEstoque.cadastrarProduto(DoramaPadrao);
 
 
         while (executando == true){
@@ -41,6 +44,8 @@ class Program
                 //Se for 1 abre o cadastro de produto
                 if (opcaoMenu == 1){
 
+                    Mensagem("____________________");
+                    Mensagem("-- Cadastrar Produto --");
                     Produto novoDorama = new Produto {
 
                         Nome = PedirTexto("Nome:"),
@@ -53,13 +58,13 @@ class Program
                         Valor = PedirNumeroDouble("Valor:"),
                         Estoque = 0
                     }; 
-                    Program.Mensagem("Cadastrando Dorama!");
                     program.gerenciadorEstoque.cadastrarProduto(novoDorama);
-                    Program.Mensagem("Produto cadastrado!!");
-                    Program.Mensagem("____________________");
+                    Mensagem("---- !! Produto cadastrado!! !! ----");
                 }
 
                 if (opcaoMenu == 2) {
+                    Mensagem("____________________");
+                    Mensagem("-- Lista de Produtos --");
                     program.gerenciadorEstoque.listarProdutos();
                 }
                 if (opcaoMenu == 3){
