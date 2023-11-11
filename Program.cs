@@ -15,19 +15,31 @@ class Program
         bool executando = true;
         Program program = new Program();
 
-        // //Produto Padrão Cadastrado
-        // Produto DoramaPadrao = new Produto {
-        //     Nome = "Kit Noite Feliz",
-        //     Modelo = "Miniatura",
-        //     DAltura = 21,
-        //     DLargura = 13,
-        //     DProfundidade = 15,
-        //     Escala = "1:24",
-        //     Led = "Sim",
-        //     Valor = 379.97,
-        //     Estoque = 8
-        // };
-        // program.gerenciadorEstoque.cadastrarProduto(DoramaPadrao);
+        //Produto Padrão Cadastrado
+        Produto DoramaPadrao = new Produto {
+            Nome = "Kit Noite Feliz",
+            Modelo = "Miniatura",
+            DAltura = 21,
+            DLargura = 13,
+            DProfundidade = 15,
+            Escala = "1:24",
+            Led = "Sim",
+            Valor = 379.97,
+            Estoque = 8
+        };
+        Produto DoramaPadrao2 = new Produto {
+            Nome = "Kit Bouquet de Flores",
+            Modelo = "Puzzle 3D",
+            DAltura = 26,
+            DLargura = 44,
+            DProfundidade = 13,
+            Escala = "1:10",
+            Led = "Não",
+            Valor = 159.99,
+            Estoque = 5
+        };
+        program.gerenciadorEstoque.cadastrarProduto(DoramaPadrao);
+        program.gerenciadorEstoque.cadastrarProduto(DoramaPadrao2);
 
 
         while (executando == true){
