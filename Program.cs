@@ -63,25 +63,13 @@ class Program
                     program.gerenciadorEstoque.listarProdutos();
                 }
                 if (opcaoMenu == 3){
-                    //listar arrays: lista dos produtos pelo identificador, selecionar e excluir
-                    //Identificador
-                    //PedirNumeroInteiro("Qual produto deseja excluir?"); //selecionar
-                    //excluir
-
+                    program.gerenciadorEstoque.removerProduto();
                 }
                 if (opcaoMenu == 4){
-                    //listar arrays: lista dos produtos pelo identificador, selecionar a quantidade e atribui valor
-                    //Identificador
-                    //PedirNumeroInteiro("Qual produto deseja dar entrada no estoque?"); //selecionar
-                    //estoque = valor atual + n2(incremento);
-
+                    program.gerenciadorEstoque.entradaEstoque();
                 }
                 if (opcaoMenu == 5){
-                    //listar arrays: lista dos produtos pelo identificador, selecionar a quantidade e atribui valor
-                    //Identificador
-                    //PedirNumeroInteiro("Qual produto deseja dar saída no estoque?"); //selecionar
-                    //estoque = valor atual + n2(incremento);
-
+                    program.gerenciadorEstoque.saidaEstoque();
                 }
             }
 
